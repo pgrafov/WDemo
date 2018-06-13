@@ -1,0 +1,23 @@
+<div class="ef-sp-hero-wrapper fitpromos" style="height: 800px; width: 1200px; background-image: url('https://mk08fito317fjb1b1.kinstacdn.com/wp-content/uploads/2017/03/Easter_normal_Header-1.jpg');">
+        <div class="ef-sp-hero"></div>
+        <div class="ef-sp-buy-section">
+            <div class="container">
+                <div class="row">
+                    <div style="font-size: 30px; background: white; position: absolute; left: 400px; top: 600px;">
+                        <p>
+                        {%if promotion %} {{promotion.description }} {%else%} Test promotion {%endif%}
+                        </p>
+                        <p>
+                        {%if promotion %}{{promotion.discount | floatformat:0 }}% {%else%}100%{%endif%}OFF
+                        </p>
+
+                                    <a href="#" class="btn btn-primary btn-lg btn-block">
+                                        Pay {%if promotion %}${{promotion.price | floatformat:0 }}{%else%}$0{%endif%} now!                                    </a>
+                                </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

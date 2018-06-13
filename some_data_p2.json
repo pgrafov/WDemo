@@ -1,0 +1,87 @@
+[
+
+  {
+    "model": "home.promotion",
+    "pk": 1,
+    "fields": {
+      "description": "12 months for $49",
+      "price": 49,
+      "discount": 18
+    }
+  },
+  {
+    "model": "home.promotion",
+    "pk": 2,
+    "fields": {
+      "description": "6 months for $26",
+      "price": 26,
+      "discount": 15
+    }
+  },
+  {
+    "model": "home.promourl",
+    "pk": 1,
+    "fields": {
+      "slug": "please-please-buy-it",
+      "promotion": 1,
+      "promopage": 4
+    }
+  },
+  {
+    "model": "home.promourl",
+    "pk": 2,
+    "fields": {
+      "slug": "this-one-is-even-better",
+      "promotion": 2,
+      "promopage": 4
+    }
+  },
+  {
+    "model": "wagtailimages.rendition",
+    "pk": 7,
+    "fields": {
+      "filter_spec": "max-165x165",
+      "file": "images/EN-meals-min.max-165x165.png",
+      "width": 102,
+      "height": 165,
+      "focal_point_key": "",
+      "image": 3
+    }
+  },
+  {
+    "model": "wagtailimages.rendition",
+    "pk": 8,
+    "fields": {
+      "filter_spec": "max-165x165",
+      "file": "images/EN-workouts-min.max-165x165.png",
+      "width": 102,
+      "height": 165,
+      "focal_point_key": "",
+      "image": 4
+    }
+  },
+  {
+    "model": "wagtailimages.rendition",
+    "pk": 9,
+    "fields": {
+      "filter_spec": "original",
+      "file": "images/EN-meals-min.original.png",
+      "width": 433,
+      "height": 697,
+      "focal_point_key": "",
+      "image": 3
+    }
+  },
+  {
+    "model": "wagtailimages.rendition",
+    "pk": 10,
+    "fields": {
+      "filter_spec": "original",
+      "file": "images/EN-workouts-min.original.png",
+      "width": 433,
+      "height": 697,
+      "focal_point_key": "",
+      "image": 4
+    }
+  }
+]

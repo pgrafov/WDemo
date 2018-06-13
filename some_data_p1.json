@@ -1,0 +1,139 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$100000$dCuWLkBqTj6T$eXoHSoDVA9sfzZIDeXU0KpdhP4fjdV3oB7QPyUcaypY=",
+      "last_login": "2018-06-13T08:33:13.802Z",
+      "is_superuser": true,
+      "username": "eightfit",
+      "first_name": "",
+      "last_name": "",
+      "email": "noreply@example.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2018-06-13T08:33:05.369Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+
+  {
+    "model": "wagtailimages.image",
+    "pk": 3,
+    "fields": {
+      "collection": 1,
+      "title": "EN-meals-min.png",
+      "file": "original_images/EN-meals-min.png",
+      "width": 433,
+      "height": 697,
+      "created_at": "2018-06-13T11:42:44.762Z",
+      "uploaded_by_user": 1,
+      "focal_point_x": null,
+      "focal_point_y": null,
+      "focal_point_width": null,
+      "focal_point_height": null,
+      "file_size": null
+    }
+  },
+  {
+    "model": "wagtailimages.image",
+    "pk": 4,
+    "fields": {
+      "collection": 1,
+      "title": "EN-workouts-min.png",
+      "file": "original_images/EN-workouts-min.png",
+      "width": 433,
+      "height": 697,
+      "created_at": "2018-06-13T11:42:56.149Z",
+      "uploaded_by_user": 1,
+      "focal_point_x": null,
+      "focal_point_y": null,
+      "focal_point_width": null,
+      "focal_point_height": null,
+      "file_size": null
+    }
+  },
+   {
+    "model": "wagtailcore.pagerevision",
+    "pk": 8,
+    "fields": {
+      "page": 4,
+      "submitted_for_moderation": false,
+      "created_at": "2018-06-13T11:42:58.758Z",
+      "user": 1,
+      "content_json": "{\"locked\": false, \"draft_title\": \"My very profitable promotion\", \"content_type\": 2, \"expired\": false, \"body\": \"[{\\\"id\\\": \\\"2616f91e-84d4-43b7-b00f-16d845d63f17\\\", \\\"type\\\": \\\"heroes\\\", \\\"value\\\": null}, {\\\"id\\\": \\\"5666929f-a90d-40ec-8d4e-96aa89054a31\\\", \\\"type\\\": \\\"index\\\", \\\"value\\\": \\\"<h2>Your roadmap to a healthier, fitter you</h2><p>We can help you achieve your fitness goals from home. 8fit Pro is all your exercise and nutrition needs in one handy app.</p>\\\"}, {\\\"id\\\": \\\"1171c311-d83d-4fc4-b6b2-1c5e790c3235\\\", \\\"type\\\": \\\"text_plus_screenshot\\\", \\\"value\\\": [{\\\"id\\\": \\\"9d9c583e-c7f9-4a8d-813b-452c60ea4050\\\", \\\"type\\\": \\\"screenshot\\\", \\\"value\\\": 3}, {\\\"id\\\": \\\"c69ae744-fda2-49d7-a5f8-4842ed453bf4\\\", \\\"type\\\": \\\"text\\\", \\\"value\\\": \\\"<h2>Meal Plans tailored to your goals</h2><p>Nutrition is 80% of the results. Get personalized plans to reach your goal</p><ul><li>Designed by nutritionists</li><li>Weekly shopping list</li><li>Simple and delicious recipes</li></ul>\\\"}]}, {\\\"id\\\": \\\"685cc55f-95f0-474a-bc92-8b306e758930\\\", \\\"type\\\": \\\"text_plus_screenshot\\\", \\\"value\\\": [{\\\"id\\\": \\\"d896ea59-e770-458e-8e93-6f3dc5bbf6d4\\\", \\\"type\\\": \\\"text\\\", \\\"value\\\": \\\"<h2>Quick, effective workouts</h2><p>Follow a workout plan designed for you</p><ul><li>Personalized for your fitness level</li><li>Intense 5 to 15 minute sessions</li><li>Burn 120 calories in 5 minutes</li></ul>\\\"}, {\\\"id\\\": \\\"4ea4a51a-1db9-4729-ba77-001a7306722a\\\", \\\"type\\\": \\\"screenshot\\\", \\\"value\\\": 4}]}]\", \"last_published_at\": \"2018-06-13T11:13:32.811Z\", \"search_description\": \"\", \"pk\": 4, \"path\": \"000100010001\", \"seo_title\": \"\", \"latest_revision_created_at\": \"2018-06-13T11:13:32.782Z\", \"url_path\": \"/home/my-first-promotion/\", \"depth\": 3, \"owner\": 1, \"go_live_at\": null, \"slug\": \"my-first-promotion\", \"has_unpublished_changes\": false, \"first_published_at\": \"2018-06-13T08:37:57.406Z\", \"live\": true, \"numchild\": 0, \"title\": \"My very profitable promotion\", \"show_in_menus\": false, \"expire_at\": null, \"live_revision\": 7}",
+      "approved_go_live_at": null
+    }
+  },
+   {
+    "model": "home.promopage",
+    "pk": 3,
+    "fields": {
+      "body": "[]"
+    }
+  },
+  {
+    "model": "wagtailcore.page",
+    "pk": 4,
+    "fields": {
+      "path": "000100010001",
+      "depth": 3,
+      "numchild": 0,
+      "title": "My very profitable promotion",
+      "draft_title": "My very profitable promotion",
+      "slug": "my-first-promotion",
+      "content_type": 2,
+      "live": true,
+      "has_unpublished_changes": false,
+      "url_path": "/home/my-first-promotion/",
+      "owner": 1,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "first_published_at": "2018-06-13T08:37:57.406Z",
+      "last_published_at": "2018-06-13T11:42:58.790Z",
+      "latest_revision_created_at": "2018-06-13T11:42:58.758Z",
+      "live_revision": 8
+    }
+  },
+  {
+    "model": "home.promopage",
+    "pk": 4,
+    "fields": {
+      "body": "[{\"id\": \"2616f91e-84d4-43b7-b00f-16d845d63f17\", \"type\": \"heroes\", \"value\": null}, {\"id\": \"5666929f-a90d-40ec-8d4e-96aa89054a31\", \"type\": \"index\", \"value\": \"<h2>Your roadmap to a healthier, fitter you</h2><p>We can help you achieve your fitness goals from home. 8fit Pro is all your exercise and nutrition needs in one handy app.</p>\"}, {\"id\": \"1171c311-d83d-4fc4-b6b2-1c5e790c3235\", \"type\": \"text_plus_screenshot\", \"value\": [{\"id\": \"9d9c583e-c7f9-4a8d-813b-452c60ea4050\", \"type\": \"screenshot\", \"value\": 3}, {\"id\": \"c69ae744-fda2-49d7-a5f8-4842ed453bf4\", \"type\": \"text\", \"value\": \"<h2>Meal Plans tailored to your goals</h2><p>Nutrition is 80% of the results. Get personalized plans to reach your goal</p><ul><li>Designed by nutritionists</li><li>Weekly shopping list</li><li>Simple and delicious recipes</li></ul>\"}]}, {\"id\": \"685cc55f-95f0-474a-bc92-8b306e758930\", \"type\": \"text_plus_screenshot\", \"value\": [{\"id\": \"d896ea59-e770-458e-8e93-6f3dc5bbf6d4\", \"type\": \"text\", \"value\": \"<h2>Quick, effective workouts</h2><p>Follow a workout plan designed for you</p><ul><li>Personalized for your fitness level</li><li>Intense 5 to 15 minute sessions</li><li>Burn 120 calories in 5 minutes</li></ul>\"}, {\"id\": \"4ea4a51a-1db9-4729-ba77-001a7306722a\", \"type\": \"screenshot\", \"value\": 4}]}]"
+    }
+  },
+    {
+    "model": "wagtailcore.page",
+    "pk": 3,
+    "fields": {
+      "path": "00010001",
+      "depth": 2,
+      "numchild": 1,
+      "title": "Home",
+      "draft_title": "Home",
+      "slug": "home",
+      "content_type": 2,
+      "live": true,
+      "has_unpublished_changes": false,
+      "url_path": "/home/",
+      "owner": null,
+      "seo_title": "",
+      "show_in_menus": false,
+      "search_description": "",
+      "go_live_at": null,
+      "expire_at": null,
+      "expired": false,
+      "locked": false,
+      "first_published_at": null,
+      "last_published_at": null,
+      "latest_revision_created_at": null,
+      "live_revision": null
+    }
+  }
+]

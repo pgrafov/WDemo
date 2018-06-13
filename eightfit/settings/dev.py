@@ -1,4 +1,5 @@
 from .base import *
+import django_heroku
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -16,3 +17,6 @@ try:
     from .local import *
 except ImportError:
     pass
+
+
+django_heroku.settings(locals())
